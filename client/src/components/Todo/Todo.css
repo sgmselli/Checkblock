@@ -1,0 +1,41 @@
+.Todo {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 8rem;
+
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 rgb(172, 172, 172);
+    width: 100%;
+
+    background-color: white;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+
+    margin: 2.4rem auto;
+    
+}
+
+h3 {
+    background: none!important;
+}
+
+.del {
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 1rem;
+    margin-right:1.6rem;
+    height:4rem;
+    border: none;
+    background-color: rgb(240, 240, 240)!important;
+    box-shadow: 1px 1px 0 lightgrey;
+    transition: 1.8s;
+}
+
+button:hover {
+    translate: -1;
+    transition: 1.8s;
+    cursor: pointer;
+    box-shadow: none;
+}
